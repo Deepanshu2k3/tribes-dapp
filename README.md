@@ -16,3 +16,4 @@ TribeChat app button which links to our Dentralized Messenger app which is seper
 
 And Hosted on spheron : https://spheron.infura-ipfs.io/ipfs/QmTZ3ENs1SRiw97HqN1FmXhm5ZPz4srczaUXjgVuwNAXub/
 
+Godaddy domain: tribes.club , tribes.chat
