@@ -2,9 +2,7 @@ import { useAddress, useLogin, Web3Button } from "@thirdweb-dev/react";
 import { ConnectWallet } from "@thirdweb-dev/react";
 import Cta from "../components/Cta";
 import Cta2 from "../components/Cta2";
-import Cta3 from "../components/Cta3";
 import styles from "../styles/Home.module.css";
-import Aconnect from "./Aconnect";
 import Connect from "./Connect";
 
 
@@ -22,24 +20,24 @@ export default function Login() {
 
   return (
     <div className="bg-black">
-    <nav class="flex items-center justify-between flex-wrap bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-6">
-      <div class="flex items-center flex-shrink-0 text-white mr-6">
-        <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
-        <span class="font-bold text-7xl tracking-tight ">Tribes </span>
+    <nav className="flex items-center justify-between flex-wrap bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-6">
+      <div className="flex items-center flex-shrink-0 text-white mr-6">
+        <svg className="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+        <span className="font-bold text-7xl tracking-tight ">Tribes </span>
         
       </div>
       
-      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-        <div class="text-sm lg:flex-grow">
+      <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div className="text-sm lg:flex-grow">
        
-          {/* <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 text-2xl font-semibold">
+          {/* <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 text-2xl font-semibold">
           The gated community APP
           </a> */}
         
         </div>
         <div >
-          <a class="flex text-2xl px-4 py-2 leading-none rounded mt-4 lg:mt-0 text-semibold">{address?"Metamask Connected "+"welcome "+address.slice(0,6)+"...":<Connect/>}</a>
-          <a href="https://spheron.infura-ipfs.io/ipfs/QmTZ3ENs1SRiw97HqN1FmXhm5ZPz4srczaUXjgVuwNAXub/"><button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-xl px-5 py-2.5 text-center mt-5 mr-2 mb-2" >TribesChat</button></a>
+          <a className="flex text-2xl px-4 py-2 leading-none rounded mt-4 lg:mt-0 text-semibold">{address?"Metamask Connected "+"welcome "+address.slice(0,6)+"...":<Connect/>}</a>
+          <a href="https://spheron.infura-ipfs.io/ipfs/QmTZ3ENs1SRiw97HqN1FmXhm5ZPz4srczaUXjgVuwNAXub/"><button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-xl px-5 py-2.5 text-center mt-5 mr-2 mb-2" >TribesChat</button></a>
         </div>
       </div>
     </nav>
@@ -53,22 +51,22 @@ export default function Login() {
 
       <>
         <div>
-        <section class="text-white body-font bg-black">
-          <div class="container px-5 py-5 mx-auto">
-            <div class="flex flex-wrap">
-              <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-              <span class="block text-indigo-500 text-4xl py-10 font-poppins font-black">
+        <section className="text-white body-font bg-black">
+          <div className="container px-5 py-5 mx-auto">
+            <div className="flex flex-wrap">
+              <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+              <span className="block text-indigo-500 text-4xl py-10 font-poppins font-black">
                     HacktheMountain Tribe
                 </span>
-                <div class="flex justify-center items-center">
+                <div className="flex justify-center items-center">
 
-                   <div class="p-1">
-                            <div class="group relative block overflow-hidden rounded-md transition-all duration-500">
-                                            <a href="#" class="lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom" title="">
+                   <div className="p-1">
+                            <div className="group relative block overflow-hidden rounded-md transition-all duration-500">
+                                            <a href="#" className="lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom" title="">
                                                 <img src="https://gateway.lighthouse.storage/ipfs/QmT4wsEPuUkBThrDHKXiWKCCzQL8Syu9aj5ffGmyUTareA" />
                                             </a>
-                                            <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-transparent p-4 rounded shadow dark:shadow-gray-700">
-                                                <a href="#" class="hover:text-primary-600 text-lg transition duration-500 font-medium">
+                                            <div className="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-transparent p-4 rounded shadow dark:shadow-gray-700">
+                                                <a href="#" className="hover:text-primary-600 text-lg transition duration-500 font-medium">
                                                 <Web3Button
                                                 contractAddress={contractAddress1}
                                                 action={(contract) => contract.erc1155.claim(0, 1)}
@@ -82,12 +80,12 @@ export default function Login() {
                                     </div>
   
                 </div>
-                <p class="text-base leading-relaxed mt-2">Hack The Mountains is a community- focused Hybrid Hackathon, designed especially for the needs of the community. Whether you are a beginner or an expert, Hack The Mountains Tribe brings you a perfect chance to showcase your skills and witness a competitive yet inclusive developer community around it.</p>
-                <a class="text-indigo-500 inline-flex items-center mt-3">
+                <p className="text-base leading-relaxed mt-2">Hack The Mountains is a community- focused Hybrid Hackathon, designed especially for the needs of the community. Whether you are a beginner or an expert, Hack The Mountains Tribe brings you a perfect chance to showcase your skills and witness a competitive yet inclusive developer community around it.</p>
+                <a className="text-indigo-500 inline-flex items-center mt-3">
                 
                   
                 </a>
-                <a class="text-indigo-500 inline-flex items-center mt-3">
+                <a className="text-indigo-500 inline-flex items-center mt-3">
                   <button
                     className={styles.mainButton}
                     style={{ width: 256 }}
@@ -95,26 +93,26 @@ export default function Login() {
                   >
                     Enter HacktheMountain Tribe
                   </button>
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
                 </a>
               </div>
 
               {/* second divvvv */}
-              <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-              <span class="block text-indigo-500 text-4xl py-10 font-poppins font-black">
+              <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+              <span className="block text-indigo-500 text-4xl py-10 font-poppins font-black">
                     CSE Tribe
                 </span>
-                <div class="flex justify-center items-center">
+                <div className="flex justify-center items-center">
 
-                   <div class="p-1">
-                            <div class="group relative block overflow-hidden rounded-md transition-all duration-500">
-                                            <a href="#" class="lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom" title="">
+                   <div className="p-1">
+                            <div className="group relative block overflow-hidden rounded-md transition-all duration-500">
+                                            <a href="#" className="lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom" title="">
                                                 <img src="https://gateway.lighthouse.storage/ipfs/QmZ9feydXCnwcuc3Nynfs2H621YtF8mgA7eL1GTurwYH1v" />
                                             </a>
-                                            <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-transparent p-4 rounded shadow dark:shadow-gray-700">
-                                                <a href="#" class="hover:text-primary-600 text-lg transition duration-500 font-medium">
+                                            <div className="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-transparent p-4 rounded shadow dark:shadow-gray-700">
+                                                <a href="#" className="hover:text-primary-600 text-lg transition duration-500 font-medium">
                                                 <Web3Button
                                                   contractAddress={contractAddress2}
                                                   action={(contract) => contract.erc1155.claim(0, 1)}
@@ -128,12 +126,12 @@ export default function Login() {
                                     </div>
   
                 </div>
-                <p class="text-base leading-relaxed mt-2">CSE Tribe are university based community groups for students interested in Latest developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining CSE Tribe, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community.</p>
-                <a class="text-indigo-500 inline-flex items-center mt-3">
+                <p className="text-base leading-relaxed mt-2">CSE Tribe are university based community groups for students interested in Latest developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining CSE Tribe, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community.</p>
+                <a className="text-indigo-500 inline-flex items-center mt-3">
                 
                   
                 </a>
-                <a class="text-indigo-500 inline-flex items-center mt-3">
+                <a className="text-indigo-500 inline-flex items-center mt-3">
                   <button
                     className={styles.mainButton}
                     style={{ width: 256 }}
@@ -141,26 +139,26 @@ export default function Login() {
                   >
                     Enter CSE Tribe
                   </button>
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
                 </a>
               </div>
 
               {/* third div */}
-              <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-              <span class="block text-indigo-500 text-4xl py-10 font-poppins font-black">
+              <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+              <span className="block text-indigo-500 text-4xl py-10 font-poppins font-black">
                     NERD Tribe
                 </span>
-                <div class="flex justify-center items-center">
+                <div className="flex justify-center items-center">
 
-                   <div class="p-1">
-                            <div class="group relative block overflow-hidden rounded-md transition-all duration-500">
-                                            <a href="#" class="lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom" title="">
+                   <div className="p-1">
+                            <div className="group relative block overflow-hidden rounded-md transition-all duration-500">
+                                            <a href="#" className="lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom" title="">
                                                 <img src="https://gateway.lighthouse.storage/ipfs/QmcfrsmLeg6L8X3ZY8ybf1yqdzPhUDdcJFiHBQbxgbLEsS" />
                                             </a>
-                                            <div class="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-transparent p-4 rounded shadow dark:shadow-gray-700">
-                                                <a href="#" class="hover:text-primary-600 text-lg transition duration-500 font-medium">
+                                            <div className="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-transparent p-4 rounded shadow dark:shadow-gray-700">
+                                                <a href="#" className="hover:text-primary-600 text-lg transition duration-500 font-medium">
                                                 <Web3Button
                                                   contractAddress={contractAddress3}
                                                   action={(contract) => contract.erc1155.claim(0, 1)}
@@ -174,12 +172,12 @@ export default function Login() {
                                     </div>
   
                 </div>
-                <p class="text-base leading-relaxed mt-2">Nerd Tribe is an awesome community that explains how everything works. There is a massive section that covers all you need to know about science including life science, innovation, engineering and nature. There is also a great section with a complete scientific dictionary.</p>
-                <a class="text-indigo-500 inline-flex items-center mt-3">
+                <p className="text-base leading-relaxed mt-2">Nerd Tribe is an awesome community that explains how everything works. There is a massive section that covers all you need to know about science including life science, innovation, engineering and nature. There is also a great section with a complete scientific dictionary.</p>
+                <a className="text-indigo-500 inline-flex items-center mt-3">
                 
                   
                 </a>
-                <a class="text-indigo-500 inline-flex items-center mt-3">
+                <a className="text-indigo-500 inline-flex items-center mt-3">
                   <button
                     className={styles.mainButton}
                     style={{ width: 256 }}
@@ -187,7 +185,7 @@ export default function Login() {
                   >
                     Enter NERD Tribe
                   </button>
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
                 </a>
