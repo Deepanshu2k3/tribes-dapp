@@ -1,6 +1,14 @@
-/** @type {import('next').NextConfig} */
+// /** @type {import('next').NextConfig} */
+
+const isProd = process.env.NODE_ENV === "production";
 const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
+  trailingSlash: true,
+}
