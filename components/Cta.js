@@ -16,10 +16,10 @@ const Cta = () => {
 
 
 
-<section class="text-white body-font bg-black">
-  <div class="container px-5 py-5 mx-auto">
+<section className="text-white body-font bg-black">
+  <div className="container px-5 py-5 mx-auto">
     
-    <button class="btn btn-wide">TribesChat</button>
+    <button className="btn btn-wide">TribesChat</button>
   </div>
 </section>
 </div>

@@ -101,7 +101,7 @@ const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
         {/* above this */}
         
       </div>
-      <div classNameName="flex bg-white bg-opacity-30 shadow-lg rounded-lg mx-4 md:mx-auto my-4 max-w-md md:max-w-2xl ">
+      <div className="flex bg-white bg-opacity-30 shadow-lg rounded-lg mx-4 md:mx-auto my-4 max-w-md md:max-w-2xl ">
          <div className="flex items-start px- py-">
             <img className="w-12 h-12 rounded-full object-cover m-4 shadow " src="https://gateway.lighthouse.storage/ipfs/QmcmV56Qf81hdEsfkavV4tywyCj6ZkYbYrMk47voXfQABP" />
             <div className="">
