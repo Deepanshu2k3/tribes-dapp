@@ -3,7 +3,11 @@ TRIBES:IT IS A COMMUNITY APP CONSISTING OF GATED AND OPEN COMMUNITIES (SOMEWHAT 
 
 
 1.) This project is deployed on polygon-testnet
+
+
 2.) NFT Gated community is created using ThirdWEB's prebuild smart contracts
+
+
 3.) deployed using spheron
 
 4.)there is also a 
