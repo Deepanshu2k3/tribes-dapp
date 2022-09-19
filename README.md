@@ -6,7 +6,7 @@ TRY IT OUT ON : https://tribes-dapp.vercel.app/
 1.) This project is deployed on polygon-testnet
 
 
-2.) NFT Gated community is created using ThirdWEB's prebuild smart contracts
+2.) NFT Gated community is created using ThirdWEB's smart contracts
 
 
 3.) deployed using spheron
