@@ -85,7 +85,7 @@ export default function Login() {
                 
                   
                 </a>
-                <a className="text-indigo-500 inline-flex items-center mt-3">
+                <a className="text-indigo-500 inline-flex items-center mt-3 hover: text-lg">
                   <button
                     className={styles.mainButton}
                     style={{ width: 256 }}
@@ -131,7 +131,7 @@ export default function Login() {
                 
                   
                 </a>
-                <a className="text-indigo-500 inline-flex items-center mt-3">
+                <a className="text-indigo-500 inline-flex items-center mt-3 hover: text-lg">
                   <button
                     className={styles.mainButton}
                     style={{ width: 256 }}
@@ -177,7 +177,7 @@ export default function Login() {
                 
                   
                 </a>
-                <a className="text-indigo-500 inline-flex items-center mt-3">
+                <a className="text-indigo-500 inline-flex items-center mt-3 hover: text-lg">
                   <button
                     className={styles.mainButton}
                     style={{ width: 256 }}
